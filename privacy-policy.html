@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Aether Weather</title>
+    <style>
+        :root {
+            --primary: #0284c7;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+        h1 {
+            color: #0f172a;
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        .meta {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 28px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        h2 {
+            color: #0f172a;
+            font-size: 1.35rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #334155;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: #f0f9ff;
+            border-left: 4px solid var(--primary);
+            padding: 14px 18px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        .highlight-box p {
+            margin: 0;
+            color: #0369a1;
+            font-weight: 500;
+        }
+        code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #0f172a;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="meta">
+            <strong>Application:</strong> Aether Weather &bull; 
+            <strong>Effective Date:</strong> October 9, 2026 &bull; 
+            <strong>Last Updated:</strong> October 9, 2026
+        </div>
+
+        <p>Welcome to <strong>Aether Weather</strong> ("we", "our", or "us"). We are committed to protecting your privacy and ensuring transparency regarding how your data is handled. This Privacy Policy outlines what information we collect, how it is used, and your rights when using our mobile application.</p>
+
+        <h2>1. Information We Collect</h2>
+        
+        <h3>A. Location Data</h3>
+        <p>The Application requests access to your device's location:</p>
+        <ul>
+            <li><code>ACCESS_COARSE_LOCATION</code> (Approximate location)</li>
+            <li><code>ACCESS_FINE_LOCATION</code> (Precise GPS location)</li>
+        </ul>
+        <p><strong>Purpose of Use:</strong> We use your location exclusively in the foreground while the Application is active to fetch real-time atmospheric data, hourly predictions, 7-day forecasts, and critical severe weather alerts tailored to your geographic coordinates.</p>
+        
+        <div class="highlight-box">
+            <p>&check; No Background Tracking: Aether Weather DOES NOT track, collect, or monitor your location in the background when the app is closed.</p>
+        </div>
+
+        <h3>B. Notification Permissions</h3>
+        <p>If permission is granted (<code>POST_NOTIFICATIONS</code>), the Application delivers local alerts regarding imminent severe weather events, significant temperature shifts, and daily atmospheric summaries. You can disable this permission at any time in the app settings or Android system settings.</p>
+
+        <h3>C. Local Preferences</h3>
+        <p>The Application stores custom preferences locally on your device (e.g., preferred measurement units &deg;C/&deg;F, saved cities, theme mode). This data is stored strictly on your local device storage and is never uploaded to remote servers.</p>
+
+        <h3>D. Information We Do NOT Collect</h3>
+        <ul>
+            <li>No user accounts, registrations, or login credentials required.</li>
+            <li>No personally identifiable information (PII) such as full name, email, phone number, or contacts.</li>
+            <li>No financial or payment card information.</li>
+        </ul>
+
+        <h2>2. Third-Party Meteorological Services</h2>
+        <p>To provide accurate meteorological forecasts, the Application sends anonymized geographical coordinates (latitude and longitude) to public weather API providers over secure <strong>HTTPS / TLS</strong> encrypted channels. These third-party services do not receive or store any identifying user credentials.</p>
+
+        <h2>3. Data Retention and Deletion</h2>
+        <p>Because we do not maintain personal profiles or account databases on remote servers, no historical location records are retained by us. You can remove all locally stored preferences instantly by clearing the app data or uninstalling the application.</p>
+
+        <h2>4. Children's Privacy</h2>
+        <p>Aether Weather is intended for general audiences as a weather utility. We do not knowingly solicit or collect data from children under the age of 13.</p>
+
+        <h2>5. Security</h2>
+        <p>We value your trust. All network requests for weather forecasts are transmitted through standard encrypted HTTPS protocols to safeguard data in transit.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have questions, feedback, or concerns regarding this Privacy Policy, please contact:</p>
+        <ul>
+            <li><strong>Developer:</strong> Aether Weather Team</li>
+            <li><strong>Support Email:</strong> thaiph.dev@gmail.com</li>
+        </ul>
+
+        <footer>
+            &copy; 2026 Aether Weather. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>

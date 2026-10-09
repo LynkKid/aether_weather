@@ -1,4 +1,4 @@
-package com.aether.weather.aether_weather
+package com.aether.weather.application
 
 import io.flutter.embedding.android.FlutterActivity
 

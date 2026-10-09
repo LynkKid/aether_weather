@@ -121,10 +121,14 @@ Download Aether Weather today and experience atmospheric clarity!
 
 ## 📋 PHẦN 3: ĐÁP ÁN BỘ CÂU HỎI CHÍNH SÁCH GOOGLE PLAY CONSOLE (POLICY & DATA SAFETY)
 
-Khi bạn điền vào mục **Chính sách (Policy)** -> **Nội dung ứng dụng (App content)**, hãy tick chọn theo hướng dẫn chuẩn xác sau:
+Khi bạn điền vào mục **Chính sách (Policy)** -> **Nội dung ứng dụng (App content)** và **Cài đặt trang thông tin cửa hàng (Store Settings)**, hãy điền theo thông tin chuẩn xác sau:
+
+### 0. Thông tin liên hệ hỗ trợ (Developer Contact Details)
+- **Email hỗ trợ (Bắt buộc):** `lynk.kid.gappmota@gmail.com`
+- **Trang web ứng dụng (Website):** `https://lynkkid.github.io/aether_weather/`
 
 ### 1. Chính sách quyền riêng tư (Privacy Policy)
-- **URL:** Dán đường dẫn trang `privacy-policy.html` bạn đã host trên GitHub Pages / Notion / web riêng (Ví dụ: `https://your-domain.com/privacy-policy.html` hoặc link GitHub raw).
+- **URL:** `https://lynkkid.github.io/aether_weather/privacy-policy.html`
 
 ### 2. Quyền truy cập ứng dụng (App access)
 - Chọn: **"Tất cả chức năng đều dùng được mà không cần quyền truy cập đặc biệt" (All functionality is available without special access)**. *(Vì app không yêu cầu tài khoản/mật khẩu).*

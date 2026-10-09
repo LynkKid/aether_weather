@@ -71,5 +71,5 @@ We may update our Privacy Policy periodically to reflect changes in our practice
 If you have any questions, feedback, or concerns regarding this Privacy Policy or our data practices, please reach out to us:
 
 - **Application Name:** Aether Weather
-- **Email:** thaiph.dev@gmail.com *(or your developer email address)*
-- **Developer Website / Repository:** https://github.com/
+- **Email:** lynk.kid.gappmota@gmail.com
+- **Developer Website / Repository:** https://github.com/LynkKid/aether_weather
